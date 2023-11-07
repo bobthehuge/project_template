@@ -28,7 +28,7 @@ setup:
 
 # -include ${DEP}
 
-.PHONY: clean
+.PHONY: all rel dev run setup clean reset
 
 clean:
 	$(RM) $(OBJ)
